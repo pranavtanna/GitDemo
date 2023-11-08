@@ -57,6 +57,7 @@ public class eCommerce_tc_2 extends AndroidBaseTest{
 		AssertJUnit.assertTrue(driver.findElements(By.xpath("(//android.widget.Toast)[1]")).size()<1);	
 	}
 	
+	//This code is for practicing Git commands
 	public void GitDemo()
 	{
 		System.out.println("hi practicing git commands");
