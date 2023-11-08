@@ -89,4 +89,12 @@ public class eCommerce_tc_4_Hybrid extends AndroidBaseTest{
 			System.out.println("Practice going good");
 			System.out.println("Done with the practice");
 		}
+		
+		//This code is for practicing Git commands
+				public void GitDemo3()
+				{
+					System.out.println("hi practicing git commands");
+					System.out.println("Practice going good");
+					System.out.println("Done with the practice");
+				}
 }

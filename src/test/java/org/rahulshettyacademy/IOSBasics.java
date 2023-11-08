@@ -39,4 +39,12 @@ public class IOSBasics extends IOSBaseTest{
 			System.out.println("Practice going good");
 			System.out.println("Done with the practice");
 		}
+		
+		//This code is for practicing Git commands
+				public void GitDemo2()
+				{
+					System.out.println("hi practicing git commands");
+					System.out.println("Practice going good");
+					System.out.println("Done with the practice");
+				}
 }
