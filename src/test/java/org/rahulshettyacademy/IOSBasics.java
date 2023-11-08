@@ -30,13 +30,13 @@ public class IOSBasics extends IOSBaseTest{
 		alertViews.fillTextLabel("hello");
 		String actualMessage = alertViews.getConfirmMessage();
 		AssertJUnit.assertEquals(actualMessage, "A message should be a short, complete sentence.");
-
-		
-		
-		
-		
-		
-		
-		
 	}
+	
+	//This code is for practicing Git commands
+		public void GitDemo()
+		{
+			System.out.println("hi practicing git commands");
+			System.out.println("Practice going good");
+			System.out.println("Done with the practice");
+		}
 }

@@ -42,7 +42,6 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 
 public class eCommerce_tc_4_Hybrid extends AndroidBaseTest{
 
-	
 	@Test(dataProvider="getData", groups= {"Smoke"})
 	public void FillForm(HashMap<String,String> input) throws InterruptedException
 	{	
@@ -62,17 +61,13 @@ public class eCommerce_tc_4_Hybrid extends AndroidBaseTest{
 		AssertJUnit.assertEquals(totalSum, displayFormattedSum);
 		cartPage.acceptTermsConditions();
 		cartPage.submitOrder();
-	
-	//		
-		
+	//			
 	}
 	
 	@BeforeMethod(alwaysRun=true)
 	public void preSetup()
 	{
-	
-		formPage.setActivity();
-				
+		formPage.setActivity();			
 	}
 	
 	@DataProvider
@@ -81,13 +76,17 @@ public class eCommerce_tc_4_Hybrid extends AndroidBaseTest{
 		List<HashMap<String, String>>	data =getJsonData(System.getProperty("user.dir")+"//src//test//java//org//rahulshettyacademy//testData//eCommerce.json");
 	//	return new Object[][] { {"rahul shetty","female","Argentina"},{"shetty MR","male","Argentina"}  };
 		
-		
 		return new Object[][] { {data.get(0)},{data.get(1)}  };
 	}
-	
-	
+
 	//key-name ,value - rahul shetty
 	// {   {hash},   {hash}    }   
 	
-	
+	//This code is for practicing Git commands
+		public void GitDemo()
+		{
+			System.out.println("hi practicing git commands");
+			System.out.println("Practice going good");
+			System.out.println("Done with the practice");
+		}
 }
